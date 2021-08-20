@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classwork_1</title>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="indigo lighten-1" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">SN</a>
+  
+      </div>
+    </nav>
+  </div>
+  <section class="container">
+    <div class="section">
+      <div class="name">Enter to SN</div>
+      <div class="row">
+        <div class="col s12 m8 offset-m2">
+          <div class="row">
+            <form action="">
+              <div class="input-field col s12">
+                <input type="text" id="name" class="contact">
+                <label for="name">Login</label>
+              </div>
+              <div class="input-field col s12">
+                <input type="text" id="password" class="contact">
+                <label for="password">Password</label>
+              </div>
+              <div class="input-field col s12">
+                <p>
+                  <label>
+                    <input type="checkbox" />
+                    <span>Remember me</span>
+                  </label>
+                </p>
+              </div>
+              <div class="input-field col s12">
+                <button type="submit" class="btn btn-enter" >ENTER</button>
+              </div>
+
+              <a href="link" class="link">Create new account</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+  </section>
+  
+  <script src="js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems);
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems);
+    });
+  </script>
+</body>
+
+</html>
